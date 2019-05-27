@@ -1,0 +1,41 @@
+{
+  "name": "rtsp-IP-video-recorder",
+  "version": "0.1.0",
+  "description": "RTSP IP Stream Recorder",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint .",
+    "ci": "npm install && npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Michael Cain",
+  "license": "",
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [
+    "rtsp",
+    "recorder",
+    "rtsp-recorder",
+    "rtsp-stream",
+    "ip-camera"
+  ],
+  "homepage": "",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^8.2.6",
+    "du": "^0.1.0",
+    "ffmpeg": "0.0.4",
+    "moment": "^2.22.2",
+    "rimraf": "^2.6.2",
+    "shelljs": "^0.8.3"
+  }
+}
