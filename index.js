@@ -4,8 +4,8 @@
 //
 //
 
-const Recorder = require("./helpers/recorder");
-const FileHandler = require("./helpers/fileHandler");
+const Recorder = require("./src/helpers/recorder");
+const FileHandler = require("./src/helpers/fileHandler");
 
 module.exports = {
   Recorder: Recorder,

@@ -1,5 +1,5 @@
 {
-  "name": "rtsp-IP-video-recorder",
+  "name": "rtsp-ip-video-recorder",
   "version": "0.1.0",
   "description": "RTSP IP Stream Recorder",
   "main": "src/index.js",
